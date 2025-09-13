@@ -5,7 +5,7 @@
 ## 1. Compile your contracts
 ```bash
 forge build
-````
+```
 
 ## 2. Run your test suite
 
