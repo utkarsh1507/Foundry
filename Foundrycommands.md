@@ -1,8 +1,8 @@
-
-````md
+```markdown
 # Build and Test Contracts
 
 ## 1. Compile your contracts
+
 ```bash
 forge build
 ```
@@ -18,5 +18,4 @@ forge test
 ```bash
 forge test --fork-url https://reth-ethereum.ithaca.xyz/rpc
 ```
-
-
+```
