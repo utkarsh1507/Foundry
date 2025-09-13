@@ -20,3 +20,15 @@ export PRIVATE_KEY="0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4
 
 # Deploy to local anvil instance
 forge script script/Counter.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key $PRIVATE_KEY
+```
+
+# 5. Start a local development node
+
+```bash
+anvil
+```
+Fork a mainnet state
+```bash
+# Fork latest mainnet state for testing
+anvil --fork-url https://reth-ethereum.ithaca.xyz/rpc
+```
